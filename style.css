@@ -1,0 +1,35 @@
+/* Hide HTML5 Up and Down arrows. */
+html {
+  background: #30362f;
+}
+/* removing arrows on number field */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* removing outline of button */
+input[type="button"] {
+  outline: none;
+}
+input[type="button"]::-moz-focus-inner {
+  border: 0;
+}
+*:focus {
+  outline: 0 !important;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+/* hardcoding some button styling */
+input {
+  height: 25px;
+  text-align: center;
+  background: #fffbdb;
+  border: none;
+}
+#total {
+  padding-top: 5px;
+  text-align: center;
+}
