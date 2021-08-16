@@ -29,7 +29,7 @@ input {
   background: #fffbdb;
   border: none;
 }
-#total {
+label#total {
   padding-top: 5px;
   text-align: center;
 }
