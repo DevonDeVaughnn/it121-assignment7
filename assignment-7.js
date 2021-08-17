@@ -46,7 +46,7 @@ function calculate() {
     const hello = document.getElementById("hello");
     hello.innerHTML = "Thank you for using this app.";
     const total = document.getElementById("total");
-    total.innerHTML = "Miles Per Gallon: " + calculatedTotal;
+    total.innerHTML = "Miles Per Gallon: " + "<br>" + calculatedTotal;
   }
 }
 
@@ -72,7 +72,6 @@ gas.style.padding = "50px";
 let input = document.getElementsByClassName("input");
 var i;
 for (i = 0; i < input.length; i++) {
-  input[i].style.float = "right";
   input[i].style.marginBottom = "20px";
 }
 let label = document.getElementsByTagName("label");
